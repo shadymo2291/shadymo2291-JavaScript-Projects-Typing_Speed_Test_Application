@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test Game</title>
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="headerContainer">
+            <h1>Typing Speed Test Game</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="welcoming_container">
+            <h2>welcome to Typing Speed Test Game<br> <span>let's have fun and select your level</span></h2>
+            <select name="level" id="">
+                <option value="easy">easy</option>
+                <option value="normal" selected>normal</option>
+                <option value="hard">hard</option>
+            </select>
+            <div class="insructions_container">
+                <p>note that:</p>
+                <p>the level [<span class="level_name"></span>] has [<span class="level_seconds"></span>] seconds per word</p>
+                <p>after the timer finished, the timer will start count for the next word</p>
+                <p>after finishing the words of the level test, you can get the score</p>
+            </div>
+            <div class="start_theGame_btn">start the Game</div>
+        </div>
+
+        <div class="test_container">
+
+            <div class="test_container_header">
+                you are playing on [<span class="level_name">easy</span>] level and you have [<span class="level_seconds">6</span>]seconds to type the word
+            </div>
+
+            <div class="test_container_test-data">
+                <div class="target_word"></div>
+                <input type="text">
+                <div class="test_container-wordsList"></div>
+            </div>
+
+            <div class="test_container-footer">
+                <div class="timer"><span></span></div>
+                <div class="words_counter_container">
+                    <span class="words_counter"></span><span class="total_number_ofWords"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="score_container">
+            <h3>well done, your score is:</h3>
+            <div class="score">
+                <div>the right words: <span>2</span></div>
+                <div class="percentage">40%</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Main Part -->
+
+    <!-- main JavaScript File -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
