@@ -9,7 +9,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://shadymo2291.github.io/shadymo2291-JavaScript-Projects-Typing_Speed_Test_Application/
 
 ### Built with
 
